@@ -52,3 +52,35 @@ textarea {
     margin: 10px;
     padding: 20px;
 }
+
+#messageList>li {
+    text-align: left;
+    margin: 5px;
+}
+
+#messageList {
+    list-style: none;
+}
+
+.container #msgcontent {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#msglist {
+    overflow-y: scroll;
+}
