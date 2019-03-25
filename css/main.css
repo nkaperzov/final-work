@@ -1,0 +1,55 @@
+body {
+    padding-top: 56px;
+    max-width: 100%;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+#fbcont {
+    float: left;
+    max-width: 520px;
+    margin: 25px;
+    margin-left: 100px;
+}
+
+#fb-row a {
+    padding: 5px;
+}
+
+#articletext {
+    margin-bottom: 150px;
+}
+
+#fb-row {
+    float: top;
+}
+
+#tabarea {
+    border: 1px solid black;
+    width: 100%;
+}
+
+#tabc {
+    margin: 10px;
+}
+
+#googleMap {
+    position: relative;
+}
+
+#contactarea {
+    margin-left: 180px;
+    padding: 35px;
+}
